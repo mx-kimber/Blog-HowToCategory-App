@@ -2,8 +2,10 @@
 
 * Ruby -v 3.2.1
 
-
-This app is just a tutorial in how to create categories in Rails.
+HOW TO CREATE CATEGORIES IN RAILS <br>
+** This app is a tutorial via commits ** 
+<br>
+<br>
 :category | :title | :description
 ** Does not come with full content text **
 
