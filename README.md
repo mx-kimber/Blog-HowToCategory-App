@@ -1,24 +1,40 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby -v 3.2.1
 
-Things you may want to cover:
 
-* Ruby version
+This app is just a tutorial in how to create categories in Rails.
+:category | :title | :description
+** Does not come with full content text **
 
-* System dependencies
+_________________________________________
 
-* Configuration
+To | CREATE | a new blog:
+http://localhost:3000/blogs/new
+OR
+http://localhost:3000/blogs
+--> New blog <--
 
-* Database creation
+To | SHOW | PATCH | DESTROY | a blog
+navigate in browser to:
+http://localhost:3000/blogs/1 <-- SHOWS a single blog id
+OR
+http://localhost:3000/blogs/
+--> Show this blog <-- you can EDIT or DESTROY here. You can also change the category in 'edit this blog'
+OR
+http://localhost:3000/blogs/1/edit <-- to EDIT/PATCH that specific id
 
-* Database initialization
+----------------------------------------
 
-* How to run the test suite
+To | CREATE | a new category:
+http://localhost:3000/categories
+--> New category <--
+OR
+http://localhost:3000/categories/new
 
-* Services (job queues, cache servers, search engines, etc.)
+TO | SHOW | a list of categories and blogs
+http://localhost:3000/categories <-- you can also create a new category here
 
-* Deployment instructions
-
-* ...
+To | PATCH | DESTROY | a category
+http://localhost:3000/categories/1 <--
+--> New category <-- you can EDIT or DESTROY here
