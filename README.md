@@ -6,11 +6,12 @@
 **Hi, Forkers!**
 <br>
 <br>
-HOW TO CREATE CATEGORIES IN RAILS USING SCAFFOLDS<br>
+HOW TO CREATE CATEGORIES IN RAILS USING SCAFFOLDS
+<br>
+<br>
 ** This app is a tutorial via commits ** 
 <br>
-<br>
-** BRB with terminal commands **
+    ** BRB with terminal commands **
 <br>
 
 ----------------------------------------
