@@ -22,6 +22,11 @@
   </div>
 
   <div>
+    <%= form.label :category %> <br>
+    <%= form.select :category_id, options_for_select(Category.all.map { |category| [category.name, category.id]})%>
+  </div>
+<br>
+  <div>
     <%= form.submit %>
   </div>
 <% end %>
