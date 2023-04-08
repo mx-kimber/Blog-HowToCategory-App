@@ -10,7 +10,7 @@ HOW TO CREATE CATEGORIES IN RAILS USING SCAFFOLDS<br>
 ** This app is a tutorial via commits ** 
 <br>
 <br>
-** Does not come with full content text **
+** BRB with terminal commands **
 <br>
 
 ----------------------------------------
